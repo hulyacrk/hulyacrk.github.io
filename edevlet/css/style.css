@@ -1,0 +1,99 @@
+body{
+    background: radial-gradient(circle farthest-corner at center,rgba(58,137,180,0) 0,rgba(58,137,180,.8) 100%),#FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: initial;
+}
+.logo{
+    height: 50px;
+    width: 40px;
+}
+.logodiv{
+    width: 772px;
+    height: 32px;
+    -webkit-box-shadow: 0 0 0 4px white, 0 10px 10px #eaf2f7;
+    -moz-box-shadow: 0 0 0 4px white, 0 20px 10px #eaf2f7;
+    box-shadow: 0 0 0 4px white, 0 10px 10px #eaf2f7;
+}
+.ref{
+    /* font-size: 11.478px; */
+    font-size: 75%;
+    line-height: 18px;
+}
+.adres{
+    color: #0071bc;
+    font-weight: 600;
+}
+.icerik{
+    width: 721px;
+    height: 600px;
+}
+.nav-item{
+    font-size: 14px;
+}
+.cerceve{
+    border: 2px solid #e1edf4;
+    border-radius: 6px;
+}
+.metin{
+    font-size: 13.25px;
+}
+.sekme{
+    font-size: 14px;
+}
+.bir{
+    border-bottom: 1px solid #e1edf4;
+}
+.yazirengi{
+    color: #0071bc;
+}
+
+.iki{
+    border-bottom: 1px dashed #e1edf4;
+}
+.yazisize{
+    font-size: 14px;
+}
+input{
+    width: 193px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid #a8acae;
+}
+input:focus{
+    background-color: #e8f0fe;
+}
+.ikonrengi{
+    color: #0071bc;
+}
+.girisyap{
+    width: 94px;
+    height: 36px;
+    border: none;
+    font-size: 120%;
+    background-color: #347aa1;
+    color: white;
+
+}
+.iptalet{
+    width: 94px;
+    height: 36px;
+    border: none;
+    font-size: 120%;
+    border: 1px solid #c1c3c4;
+    color: rgb(56, 55, 55);
+}
+button .buton{
+    font-size: 15px;
+    font-stretch: 25%;
+}
+.renk{
+    color: #a8acae;
+    font-size: 80%;
+}
+.linkler{
+    font-size: 80%;
+}
+.form-check{
+    border: 1px solid #a8acae;
+    width: 100px;
+}

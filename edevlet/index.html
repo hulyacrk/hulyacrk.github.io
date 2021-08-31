@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>e-Devlet Kapısı</title>
+</head>
+
+<body>
+    <div class="container my-3 h-auto bg-white rounded-3 icerik ">
+        <header class="row rounded-top px-1">
+            <div class="rounded-top logodiv mt-3 px-3 pb-4">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><img class="logo" src="img/e-devlet-logo-1.svg" alt=""></li>
+                    <li class="list-inline-item"><span><span class="fw-bold">e-Devlet Kapısı</span> Kimlik Doğrulama
+                            Sistemi</span></li>
+                </ul>
+            </div>
+        </header>
+        <main class="row pt-4 pe-2 ref">
+            <div class="row">
+                <div class="col-6">
+                    <div class="d-flex align-content-start flex-column float-start px-2">
+                        <span>Giriş Yapılacak Adres</span>
+                        <span>Giriş Yapılacak Uygulama</span>
+                    </div>
+                    <div class="d-flex align-content-start flex-column adres">
+                        <span>www.turkiye.gov.tr</span>
+                        <span>e-Devlet Kapısı</span>
+                    </div>
+                </div>
+                <div class="col-6 pe-0">
+                    <img class="float-end" src="img/turkiyegovtr.png" alt="">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="cerceve px-0 ms-3">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active pt-3 px-3 sekme" id="nav-edevlet-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-edevlet" type="button" role="tab" aria-controls="nav-edevlet"
+                                aria-selected="true"><i class="fas fa-keyboard me-2 mb-2 ikonrengi"></i><span
+                                    class="text-dark">e-Devlet Şifresi</span></button>
+                            <button class="nav-link pt-3 px-3 sekme" id="nav-mobilimza-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-mobilimza" type="button" role="tab" aria-controls="nav-mobilimza"
+                                aria-selected="false"><i class="fas fa-mobile-alt me-2 mb-2 ikonrengi"></i><span
+                                    class="text-dark">Mobil İmza</span></button>
+                            <button class="nav-link pt-3 px-3 sekme" id="nav-eimza-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-eimza" type="button" role="tab" aria-controls="nav-eimza"
+                                aria-selected="false"><i class="fab fa-usb me-2 mb-2 ikonrengi"></i><span
+                                    class="text-dark">e-İmza</span></button>
+                            <button class="nav-link pt-3 px-2 sekme" id="nav-tc-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-tc" type="button" role="tab" aria-controls="nav-tc"
+                                aria-selected="false"><i class="fas fa-id-card me-2 mb-2 ikonrengi"></i><span
+                                    class="text-dark">T.C. Kimlik Kartı</span></button>
+                            <button class="nav-link pt-3 px-2 ps-2 sekme" id="nav-intbank-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-intbank" type="button" role="tab" aria-controls="nav-intbank"
+                                aria-selected="false"><i class="far fa-credit-card me-2 mb-2 ikonrengi"></i><span
+                                    class="text-dark">İnternet Bankacılığı</span></button>
+
+                        </div>
+                    </nav>
+                    <div class="tab-content p-3" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-edevlet" role="tabpanel"
+                            aria-labelledby="nav-edevlet-tab">
+                            <div class="row bir">
+                                <span class="metin mb-3">T.C. Kimlik Numaranızı ve e-Devlet Şifrenizi kullanarak
+                                    kimliğiniz doğrulandıktan sonra işleminize kaldığınız yerden devam edebilirsiniz.<a
+                                        class="text-decoration-none yazirengi" href=""><i
+                                            class="far fa-hand-pointer mx-1 ikonrengi"></i> e-Devlet Şifresi Nedir,
+                                        Nasıl Alınır?</a></span>
+                            </div>
+                            <div class="row iki mt-2">
+                                <div class="col-lg-3 mt-2">
+                                    <label class="yazisize" for="email"><span class="yazirengi">*</span> T.C. Kimlik
+                                        No</label>
+                                </div>
+                                <div class="col-lg-7 d-flex flex-column ps-0">
+                                    <input type="text">
+                                    <span class="mt-2 mb-3">
+                                        <a class="mx-2 yazisize yazirengi text-decoration-none" href=""><i
+                                                class="far fa-keyboard mx-1"></i>Sanal Klavye</a>
+                                        <a class="yazisize yazirengi text-decoration-none" href=""><i
+                                                class="far fa-eye-slash mx-1 "></i>Yazarken Gizle</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row bir mt-2">
+                                <div class="col-lg-3 mt-2">
+                                    <label class="yazisize" for="email"><span class="yazirengi">*</span>e-Devlet
+                                        Şifresi</label>
+                                </div>
+                                <div class="col-lg-7 d-flex flex-column bir mb-3 ps-0">
+                                    <input type="text">
+                                    <span class="mt-2 mb-2">
+                                        <a class="mx-2 yazisize yazirengi text-decoration-none" href=""><i
+                                                class="far fa-keyboard mx-1"></i>Sanal Klavye</a>
+                                        <a class="yazisize yazirengi text-decoration-none" href=""><i
+                                                class="fas fa-lock mx-1 ikonrengi"></i>Şifremi Unuttum </a>
+                                    </span>
+                                    <span class="mb-2">
+                                        <span class=""><span class="yazirengi">*</span> e-Devlet <a
+                                                class="yazirengi text-decoration-none" href=""><i
+                                                    class="far fa-hand-pointer mx-1 ikonrengi"></i>şifrenizi unutmanız
+                                                durumunda</a> doğruladığınız cep </span> <br>
+                                        <span>telefonunuzdan yenileme işlemi yapabilirsiniz.</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-lg-6">
+                                    <button class="rounded-pill float-end iptalet"><i
+                                            class="fas fa-chevron-left me-1 buton"></i>İptal Et</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button class="rounded-pill float-start girisyap">Giriş Yap<i
+                                            class="fas fa-chevron-right buton ms-1"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-mobilimza" role="tabpanel"
+                            aria-labelledby="nav-mobilimza-tab">
+
+                            <div class="row bir">
+                                <span class="metin">
+                                    Cep telefonunuz ve hattınıza kayıtlı mobil imzanız ile kimliğiniz doğrulandıktan
+                                    sonra işleminize kaldığınız yerden devam edebilirsiniz. Eğer farklı bir yöntem ile
+                                    kimlik doğrulaması yapmak istiyorsanız, yukarıda bulunan diğer seçenekleri
+                                    kullanarak da sisteme giriş yapabilirsiniz.
+                                    <a class="text-decoration-none yazirengi" href=""><i
+                                            class="far fa-hand-pointer mx-1 ikonrengi"></i> Mobil İmza Nedir, Nasıl
+                                        Alınır?</a>
+                                </span>
+                            </div>
+                            <div class="row iki mt-2">
+                                <div class="col-lg-3 mt-2">
+                                    <label class="yazisize" for="email"><span class="yazirengi">*</span> T.C. Kimlik
+                                        No</label>
+                                </div>
+                                <div class="col-lg-7 ps-0">
+                                    <input type="text">
+                                    <span class="mt-2 mb-3">
+                                        <a class="yazisize yazirengi text-decoration-none" href=""><i
+                                                class="far fa-eye-slash mx-1 "></i>Yazarken Gizle</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="row iki mt-2">
+                                <div class="col-lg-3 mt-2">
+                                    <label class="yazisize" for="email"><span class="yazirengi">*</span>GSM
+                                        Numaranız</label>
+                                </div>
+                                <div class="col-lg-8 d-flex flex-column mb-3 ps-0">
+                                    <input type="text">
+                                    <span class="mt-2 mb-2">
+                                        Mobil imzanızın tanımlı olduğu, 10 haneli cep telefonu numaranızı giriniz. Örn:
+                                        5XXXXXXXXX
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row iki mt-2">
+                                <div class="col-lg-3 mt-2">
+                                    <label class="yazisize" for="email"><span class="yazirengi">*</span>GSM
+                                        Operatörünüz</label>
+                                </div>
+                                <div class="col-lg-8 d-flex flex-column d-inline">
+                                    <div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Türk Telekom
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Turkcell
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Vodafone
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <span class="mt-2 mb-2">
+                                        Hattınızın hizmet aldığı GSM operatörünü seçiniz.
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-eimza" role="tabpanel" aria-labelledby="nav-eimza-tab">
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                        <div class="tab-pane fade" id="nav-tc" role="tabpanel" aria-labelledby="nav-tc-tab">
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                        <div class="tab-pane fade" id="nav-intbank" role="tabpanel" aria-labelledby="nav-intbank-tab">
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+        <footer class="row mt-2">
+            <div class="col-lg-5 mb-2 ms-1">
+                <span class="renk">© 2021, Ankara - Tüm Hakları Saklıdır</span>
+            </div>
+            <div class="col-lg-6 mb-2 ms-5 mt-1">
+                <div class="linkler float-end">
+                    <a class="text-decoration-none yazirengi mx-1" href="">Gizlilik ve Güvenlik</a>
+                    <a class="text-decoration-none yazirengi mx-1" href="">Hızlı Çözüm Merkezi</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.bundle.min.js'></script>
+
+</body>
+
+</html>
