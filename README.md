@@ -1,2 +1,2 @@
 # hulyacrk.github.io
-blog sitesi
+# blog sitesi
